@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding-top: 120px;
+    background-color: #000;
+    color: #fff;
+    background-size: cover;
+  
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 56px;
+    
+}
+.contiener{
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+}
+.hederr{
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+ul{
+    margin: 0 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+li{
+    margin: 0 10px;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.hero{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 41px;
+}
+
+.hero .img{
+   
+}
+.cont{
+    width: 100%;
+    text-align: center;
+}
+.hero .cont .serch{
+    margin-top: 50px;
+}
+.serch{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.se{
+width: 584px;
+height: 46px;
+border: 2px solid rgb(61, 61, 61);
+border-radius: 30px;
+background-color: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.hero .cont .serch input{
+    width: 584px;
+    height: 42px;
+    width: 90%;
+    background: #000;
+    border: none;
+    outline: none;
+    color: #fff;
+ 
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top: 35px;
+}
+.button{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.luckbutton ,.serchbutton{
+background-color: #333;
+margin: 0 13px;
+border-radius: 5px;
+text-align: center;
+padding: 0 15px;
+cursor: pointer;
+transition: all .3s ease;
+
+}
+.serchbutton:hover{
+    background-color: rgb(83, 83, 83);
+}
+.luckbutton:hover{
+    background-color: rgb(83, 83, 83);
+}
+.foter{
+    background-color: #333;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: .8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
